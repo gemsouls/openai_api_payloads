@@ -1,0 +1,2 @@
+from .text_completion import TextCompletionInputs, TextCompletionOutputs
+from .chat_completion import ChatCompletionInputs, ChatCompletionOutputs
