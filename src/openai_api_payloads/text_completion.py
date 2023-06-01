@@ -14,7 +14,7 @@ class TextCompletionInputs(BaseModel):
     stream: bool = Field(default=False)
     logprobs: Optional[int] = Field(default=None)
     echo: bool = Field(default=False)
-    stop: Optional[Union[str, List[str]]] = Field(default=False)
+    stop: Optional[Union[str, List[str]]] = Field(default=None)
     presence_penalty: float = Field(default=0)
     frequency_penalty: float = Field(default=0)
     best_of: int = Field(default=1)

@@ -16,7 +16,7 @@ class ChatCompletionInputs(BaseModel):
     top_p: float = Field(default=1)
     n: int = Field(default=1)
     stream: bool = Field(default=False)
-    stop: Optional[Union[str, List[str]]] = Field(default=False)
+    stop: Optional[Union[str, List[str]]] = Field(default=None)
     max_tokens: int = Field(default=16)
     presence_penalty: float = Field(default=0)
     frequency_penalty: float = Field(default=0)
