@@ -12,5 +12,6 @@ setup(
     package_dir={"": "src"},
     packages=find_packages("src"),
     version=__version__,
-    install_requires=requirements
+    install_requires=requirements,
+    setup_requires=requirements
 )
