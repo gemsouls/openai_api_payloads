@@ -1,4 +1,4 @@
-name: Build AutoGPTQ Wheels
+name: Build Wheels
 
 on: workflow_dispatch
 
