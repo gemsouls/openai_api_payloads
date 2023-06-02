@@ -7,7 +7,7 @@ requirements = [
 
 
 setup(
-    name="auto_gptq",
+    name="openai_api_payloads",
     package_dir={"": "src"},
     packages=find_packages("src"),
     version=version,
