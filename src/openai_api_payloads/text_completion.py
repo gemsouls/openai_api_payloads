@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field, Required
 
 class TextCompletionInputs(BaseModel):
     model: str = Field(default=Required)
-    prompt: Union[str, List] = Field(default="<|endoftext|>")
+    prompt: str = Field(default="<|endoftext|>")
     suffix: Optional[str] = Field(default=None)
     max_tokens: int = Field(default=16)
     temperature: float = Field(default=1)
